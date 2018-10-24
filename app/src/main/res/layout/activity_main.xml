@@ -23,7 +23,6 @@
     <RadioGroup android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onCheckedRadiobutton"
         android:visibility="invisible">
         <RadioButton android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
@@ -34,5 +33,53 @@
             android:layout_height="wrap_content"
             android:text="RadioButton2"/>
     </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="어느 팀 응원해?" />
+
+    <Button
+        android:id="@+id/button"
+        android:onClick="onClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="레드삭스" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="onClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="양키즈" />
+
+    <Button
+        android:id="@+id/button3"
+        android:onClick="onClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다저스" />
+
+    <Button
+        android:id="@+id/button4"
+        android:onClick="onClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="필라델피아" />
+
+    <Button
+        android:id="@+id/button5"
+        android:onClick="onClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오리올스" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:onClick="onClickWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     />
 
 </LinearLayout>
